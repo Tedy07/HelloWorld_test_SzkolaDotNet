@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HelloWorld
 {
-    internal class Mssath
+    internal class Math
     {
         public double Add(double a, double b)
         {
