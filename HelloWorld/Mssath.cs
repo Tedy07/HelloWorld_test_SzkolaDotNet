@@ -22,8 +22,10 @@ namespace HelloWorld
         {
             return a * b;
         }
-
-
+        public double Division(double a, double b)
+        {
+            return a / b;
+        }
 
 
 
