@@ -13,31 +13,15 @@
             double addResult = math.Add(a, b);
             double substractResult = math.Substract(a, b);
             double multiplicationResult = math.Multiplication(a, b);
+            double divisionResult = math.Division(a, b);
 
             Console.WriteLine(addResult.ToString());
-            Console.WriteLine(substractResult);
-            Console.WriteLine(multiplicationResult);
-            Console.WriteLine("Hello ");
-
-
-            //// camelCase
-            //string imie = "Tadeusz";
-
-            ////UPPER_CASE
-            //const double PI_NUMBER = 3.14;
-
-            //Console.WriteLine("Hello, World! {0}", PI_NUMBER);
-            //Console.WriteLine("Nazywam się Tadeusz Kobroń, {0}", imie);
-
-
-
-
-
+            Console.WriteLine(substractResult.ToString());
+            Console.WriteLine(multiplicationResult.ToString());
+            Console.WriteLine(divisionResult.ToString());
+        
          }
-
-
     }
-
 }
 
 
